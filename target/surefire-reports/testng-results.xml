@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-05T14:39:15 IST" name="WordPress Test Suite" finished-at="2026-03-05T14:39:55 IST" duration-ms="40563">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d2adfbe]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-03-05T14:39:15 IST" name="WordPress Functional Test" finished-at="2026-03-05T14:39:55 IST" duration-ms="40563">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@1d2adfbe]" started-at="2026-03-05T14:39:15 IST" name="setUpClass" finished-at="2026-03-05T14:39:15 IST" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e43e323]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d2adfbe]" started-at="2026-03-05T14:39:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-03-05T14:39:55 IST" duration-ms="40345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate WordPress functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["WordPress Website Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@1d2adfbe]" started-at="2026-03-05T14:39:55 IST" name="tearDownClass" finished-at="2026-03-05T14:39:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- WordPress Functional Test -->
+  </suite> <!-- WordPress Test Suite -->
+</testng-results>
